@@ -19,3 +19,22 @@ aside {
   flex: 1;
   overflow-y: auto;
 }
+
+header {
+  background-color: #007bff;
+  color: white;
+}
+
+footer {
+  background-color: #f1f1f1;
+  color: #555;
+}
+
+article {
+  background-color: #fff;
+}
+
+aside {
+  background-color: #f9f9f9;
+  border-left: 1px solid #ccc;
+}
