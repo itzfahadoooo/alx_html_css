@@ -1,0 +1,32 @@
+body {
+  color: #333;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header, footer {
+  background-color: #eee;
+  padding: 20px;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+nav ul li {
+  display: inline;
+}
+
+article, aside {
+  padding: 20px;
+}
+
+.logo {
+  font-size: 2rem;
+}
