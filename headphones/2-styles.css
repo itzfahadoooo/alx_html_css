@@ -1,0 +1,11 @@
+@import url('1-styles.css');
+
+.results{padding:60px 0}
+.results-grid{display:flex;gap:20px;justify-content:space-between}
+.result{flex:1;background:white;padding:28px;border-radius:12px;text-align:center;box-shadow:0 6px 18px rgba(0,0,0,0.06)}
+.value{font-size:34px;font-weight:700}
+.label{color:var(--muted);margin-top:8px}
+
+@media (max-width:480px){
+  .results-grid{flex-direction:column}
+}
