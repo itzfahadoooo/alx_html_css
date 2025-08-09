@@ -1,0 +1,31 @@
+/* Base styles from 4-styles.css here */
+
+/* Animation keyframes */
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-6px); }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: scale(0.95); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+/* Animate cards in What we do */
+.what-we-do .card {
+  animation: fadeIn 0.6s ease forwards, float 3s ease-in-out infinite;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+.what-we-do .card:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
+}
+
+/* Animate pentagons in Results */
+.results .pentagon {
+  animation: fadeIn 0.6s ease forwards, float 4s ease-in-out infinite;
+  transition: transform 0.3s ease;
+}
+.results .pentagon:hover {
+  transform: rotate(3deg) scale(1.03);
+}
