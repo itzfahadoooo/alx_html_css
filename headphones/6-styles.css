@@ -1,0 +1,6 @@
+@import url('4-styles.css');
+
+.pentagon-grid{display:flex;gap:24px;justify-content:space-between}
+.pentagon{width:180px;height:170px;position:relative;display:flex;align-items:center;justify-content:center}
+/* Create a pentagon using clip-path */
+.pentagon{background:linear-gradient(180deg,#fff,#f7f7f7);clip-path:polygon(50% 0%,100% 38%,82% 100%,18% )}
