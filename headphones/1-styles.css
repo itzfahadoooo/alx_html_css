@@ -1,0 +1,20 @@
+@import url('0-styles.css');
+
+/* What we do section */
+.what-we-do{padding:60px 0;background:#fafafa}
+.section-title{font-size:28px;margin:0 0 8px}
+.section-sub{color:var(--muted);margin-bottom:24px}
+.cards{display:flex;gap:24px}
+.card{flex:1;background:white;padding:20px;border-radius:12px;box-shadow:0 6px 18px rgba(0,0,0,0.06);text-align:center}
+.card h3{margin-top:12px;margin-bottom:8px}
+.card p{color:var(--muted);font-size:15px}
+
+/* Icon font usage - demo classes (map to holberton font) */
+.icon{font-family: 'holberton', sans-serif;display:block;font-size:40px}
+.icon-music:before{content:'\e001'}
+.icon-comfort:before{content:'\e002'}
+.icon-durability:before{content:'\e003'}
+
+@media (max-width:480px){
+  .cards{flex-direction:column}
+}
